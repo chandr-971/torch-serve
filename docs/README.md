@@ -1,3 +1,7 @@
+#ASL App
+
+![Alt Text](https://github.com/chandr-971/torch-serve/blob/master/images/ASL.gif)
+
 # Streamlit App
 
 Refer to Streamlit folder for further instructions on how to run this
