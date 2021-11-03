@@ -22,12 +22,14 @@ This project uses Machine Learning to caption videos of people communicating in 
 - A logic app on Microsoft Azure was used to interact with the docker container deployed on Azure Container Instances. It sends images from the blob storage to the container and receives a result.
 - The result from the Container is then sent to the front end upon receiving the HTTP trigger.
 
-# Yolov5 running on TorchServe
+# Appendix
+
+## Yolov5 running on TorchServe
 
 This is a Dockerfile to run TorchServe for Yolov5 object detection model. 
 (TorchServe is a flexible and easy to use tool for serving deep learning models exported from PyTorch).
 
-## Setting up the Docker image
+### Setting up the Docker image
 
 * Build the Torch Serve image locally. More info [here](https://github.com/pytorch/serve/tree/master/docker)
  
@@ -57,7 +59,7 @@ This is a Dockerfile to run TorchServe for Yolov5 object detection model.
     docker run your_tag:your_version
     ```
 
-## Getting predictions
+### Getting predictions
 
 Once the Docker image is running, you can send POST requests to: `localhost:8080/predictions/asl_classifier`.
 
@@ -86,7 +88,7 @@ I inferenced 5 images using Postman. The JSON output is stored in `response.txt`
 
 ![Postman test](./images/postman.PNG)
 
-## Notes:
+### Notes:
 
 * The Yolov5 folder in resources is just here to export the model to a TorchScript version.
 (It could be optimized to keep only the `export.py` file but I could break stuff given code dependencies)
