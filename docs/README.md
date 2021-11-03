@@ -1,9 +1,12 @@
 # ASL App
 
 ![Alt Text](https://github.com/chandr-971/torch-serve/blob/master/images/ASL.gif)
----
+
 To access our solution, please open the [Streamlit](https://github.com/chandr-971/torch-serve/tree/master/Streamlit) folder for further instructions. 
----
+
+# Introduction
+
+This project uses Machine Learning to caption videos of people communicating in ASL. The product is a web interface that users can interact with by uploading videos and receiving labelled videos as a result. It can be used by non ASL users to translate ASL. It is also our team's submission to the Pytorch Annual Hackathon.
 
 # Yolov5 running on TorchServe
 
