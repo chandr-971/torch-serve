@@ -1,4 +1,4 @@
-#ASL App
+# ASL App
 
 ![Alt Text](https://github.com/chandr-971/torch-serve/blob/master/images/ASL.gif)
 
