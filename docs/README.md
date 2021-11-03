@@ -1,6 +1,6 @@
 # ASL App
 
-![Alt Text](https://github.com/chandr-971/torch-serve/blob/master/images/ASL.gif)
+<img src="https://github.com/chandr-971/torch-serve/blob/master/images/ASL.gif" width="400"/>
 
 To access our solution, please open the [Streamlit](https://github.com/chandr-971/torch-serve/tree/master/Streamlit) folder for further instructions. 
 
