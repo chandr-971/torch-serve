@@ -10,15 +10,15 @@ This project uses Machine Learning to caption videos of people communicating in 
 
 # Architecture
 
-## Machine Learning
+### Machine Learning
 - Our model was trained using Pytorch using images in our [data/test](https://github.com/chandr-971/torch-serve/tree/data/test) folder. 
 - The completed model was then served using torch-serve and containerized in a docker container. (See Dockerfile)
 
-## Front End
+### Front End
 - Our team developed the front end on Streamlit. It receives videos from the user, converts them to frames and sends them to a blob storage in Microsoft Azure.
 - It then sends a HTTP request to the Backend to receive the results of the Machine Learning model. 
 
-## Backend
+### Backend
 - A logic app on Microsoft Azure was used to interact with the docker container deployed on Azure Container Instances. It sends images from the blob storage to the container and receives a result.
 - The result from the Container is then sent to the front end upon receiving the HTTP trigger.
 
