@@ -2,9 +2,7 @@
 
 ![Alt Text](https://github.com/chandr-971/torch-serve/blob/master/images/ASL.gif)
 
-# Streamlit App
-
-Refer to Streamlit folder for further instructions on how to run this
+To access our solution, please open  [Streamlit](https://github.com/chandr-971/torch-serve/tree/master/Streamlit) folder for further instructions. 
 
 # Yolov5 running on TorchServe
 
