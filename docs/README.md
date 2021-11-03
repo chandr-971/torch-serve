@@ -1,4 +1,4 @@
-# ASL App
+# ASL to Text
 
 <img src="https://github.com/chandr-971/torch-serve/blob/master/images/ASL.gif" width="400"/>
 
